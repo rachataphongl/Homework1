@@ -1,0 +1,266 @@
+/* global */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    width: 100vw;
+    height: 15vh;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #ffffff;
+    align-items: center;
+    min-width: 800px;
+}
+
+.person {
+    display: flex;
+    width: 90px;
+    justify-content: space-around;
+    color: #317f81; 
+}
+.header h2 {
+    margin-bottom: 20px;
+}
+
+.nav {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    font-size: 17px;
+    text-align: center;
+}
+.nav .letter {
+    font-size: 23px;
+}
+a:link {
+    margin: 5px;
+    text-decoration-line: none;
+    color: black;
+}
+
+/* background  1 */
+.background .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg/1280px-Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg");
+    min-height: 740px;
+    min-width: 800px;
+    background-size: cover;
+}
+
+.background .container h1 {
+    font-size: 80px;
+    margin: 0 0;
+}
+.background .container p {
+    margin: 50px 0 30px 0;
+}
+.background .container .p-bottom {
+    margin: 30px 0 30px 0;
+    cursor: pointer;
+}
+button:hover {
+    background-color: white !important;
+    color: black !important;
+    transition: 0.5s;
+    /* transform: //////////////////////////////; */
+}
+button {
+    padding: 10px 20px;
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+.background .container .button2 {
+    display: flex;
+    position: absolute;
+    top: 890px;
+    right: 20px;
+    align-items: center;
+}
+.background .container .button2  {
+    display: flex;
+    position: fixed;
+    top: 810px;
+    right: 20px;
+    align-items: center;
+    padding: 10px 30px;
+}
+.background .container .button2 p  {
+    margin:5.25px 0 5.25px 10px;
+    font-size: 20px;
+}
+
+/* About me */
+.about-me {
+    display: flex;
+    height: 740px;
+    /* width: 50%; */
+    justify-content: space-between;
+    min-width: 1000px;
+}
+.underscore {
+    display: flex;
+    position: absolute;
+    left: 130px;
+    top: 900px;
+}
+.about-me h1{
+    font-size: 50px;
+    position: relative;
+    width: 50px;
+    right: 0;
+}
+.about-me-p button {
+    width: 120px;
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+
+.about-me-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 20px 130px;
+}
+.about-me-p p {
+    letter-spacing: 0.05em;
+    width: 300px;
+}
+.man {
+    width: 50%;
+    background: url("https://static.wixstatic.com/media/ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.jpg/v1/fill/w_1262,h_1432,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.jpg");
+    background-size: cover;
+}
+
+/* service */
+.services .container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Hiking_Jablanica_Mountain%2C_January_2020_09.jpg/1280px-Hiking_Jablanica_Mountain%2C_January_2020_09.jpg");
+    min-height: 740px;
+    min-width: 800px;
+    background-size: cover;
+    
+}
+
+.services .container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 270px;
+    padding-top: 80px;
+    font-size: 35px;
+}
+
+.topic {
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    margin: 242px 0 70px 0;
+    font-size: 20px;
+}
+.services .container .content h1 {
+    display: flex;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 300px;
+    height: 100px;
+    font-weight: 100;
+}
+
+.services .underscore {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    text-align: center;
+}
+.services .underscore2 {
+    display: flex;
+    position: absolute;
+    left: 314px;
+    top: 320px;
+    text-align: center;
+    font-weight:900;
+    color: #317f81;
+}
+.services .underscore3 {
+    display: flex;
+    position: absolute;
+    left: 509px;
+    top: 320px;
+    text-align: center;
+    font-weight: lighter;
+    color: #317f81;
+}
+
+.services .box {
+    display: flex;
+    width: 1000px;
+    height: 325px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card p {
+    font-size:medium ;
+}
+.card button {
+    width: 120px;
+    margin-left: 47px;
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 272px;
+    height: 325px;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.services .container .button2 {
+    display: flex;
+    position: absolute;
+    top: 890px;
+    right: 20px;
+    align-items: center;
+}
+.services .container .button2  {
+    display: flex;
+    position: fixed;
+    top: 810px;
+    right: 20px;
+    align-items: center;
+    padding: 10px 30px;
+}
+.services .container .button2 p  {
+    margin:5.25px 0 5.25px 10px;
+    font-size: 20px;
+}
+
